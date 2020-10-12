@@ -40,7 +40,7 @@ while(cap.isOpened()):
     cv2.putText(frame, "Room Status: {}".format(text), (10, 20),
                 cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2)
 
-    cv2.imshow("Security Feed", frame)
+    cv2.imshow("Security Camera", frame)
     cv2.imshow("Thresh", thresh)
     cv2.imshow("Frame Delta", frameDelta)
 
